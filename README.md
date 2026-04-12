@@ -1,1 +1,3 @@
 # Heart-Disease-Detection-using-Machine-Learning
+
+Sometimes, understanding our health condition can be difficult because symptoms are not always obvious. This project explains how machine learning can help detect heart disease early using medical data. It shows how to use features like age, sex, and cholesterol levels to train a Logistic Regression model that predicts whether a person is healthy or at risk. By preparing the data, splitting it into training and testing sets, and evaluating the model’s accuracy, the system can make reliable predictions. It also demonstrates how new patient data can be used to get real-time results, helping individuals decide whether they should seek medical advice.
