@@ -1,3 +1,48 @@
-# Heart-Disease-Detection-using-Machine-Learning
+#Heart Disease Prediction System (Logistic Regression)
 
-Sometimes, understanding our health condition can be difficult because symptoms are not always obvious. This project explains how machine learning can help detect heart disease early using medical data. It shows how to use features like age, sex, and cholesterol levels to train a Logistic Regression model that predicts whether a person is healthy or at risk. By preparing the data, splitting it into training and testing sets, and evaluating the model’s accuracy, the system can make reliable predictions. It also demonstrates how new patient data can be used to get real-time results, helping individuals decide whether they should seek medical advice.
+This project is a beginner-friendly implementation of a Heart Disease Prediction System using Python and Logistic Regression. It leverages healthcare data to predict whether a person is at risk of heart disease based on key medical attributes.
+
+Project Overview:
+
+The system analyzes patient health data such as age, sex, cholesterol levels, and other clinical features to classify individuals as healthy or at risk of heart disease. It demonstrates a complete machine learning workflow, making it ideal for beginners in healthcare analytics.
+
+Key Features:
+Exploratory Data Analysis (EDA)
+Data preprocessing and feature selection
+Train-test data splitting
+Model training using Logistic Regression
+Model evaluation with accuracy score
+Custom input prediction system
+
+How It WorksL:
+Data Exploration & Analysis
+Understand dataset structure
+Check for missing values
+Interpret target variable (0 = Healthy, 1 = At Risk)
+Data Preprocessing
+Separate features (X) and target (y)
+Split dataset into training and testing sets
+Model Building
+Train a Logistic Regression model using scikit-learn
+Model Evaluation
+Predict on test data
+Evaluate using accuracy score (~85%)
+Predictive System
+Input custom patient data
+Output prediction: Healthy or At Risk (Consult Doctor)
+
+Example:
+Input: Patient health metrics (age, cholesterol, etc.)
+Output: Prediction → Healthy or At Risk
+
+Technologies Used:
+Python
+Pandas
+NumPy
+Scikit-learn
+
+Future Improvements:
+Use advanced models (Random Forest, XGBoost)
+Improve accuracy with feature engineering
+Deploy as a web app (Streamlit / Flask)
+Add visualization dashboard for insights
